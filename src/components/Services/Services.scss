@@ -1,0 +1,48 @@
+.services {
+  background: var(--darkGrey);
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.services-center {
+  width: 90vw;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 2rem;
+}
+
+.service {
+  span {
+    display: inline-block;
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h6 {
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+
+  p {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .service {
+    p {
+      width: 100%;
+    }
+  }
+}

@@ -11,6 +11,7 @@
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainWhite: #fff;
+  --darkGrey: #cfcfcf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
 }
@@ -36,4 +37,15 @@ body {
     background: transparent;
     color: var(--primaryColor);
   }
+}
+
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
 }
