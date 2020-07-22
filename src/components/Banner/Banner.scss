@@ -1,0 +1,41 @@
+.banner {
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  text-align: center;
+  color: var(--mainWhite);
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  padding: 2rem 1rem;
+
+  div {
+    background: var(--primaryColor);
+    height: 5px;
+    width: 10rem;
+    margin: 1.7rem auto;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+}
