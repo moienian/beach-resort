@@ -7,7 +7,7 @@ export default function Rooms() {
   return (
     <Hero hero="roomsHero">
       <Banner title="our rooms">
-        <Link to="rooms" className="btn-primary">
+        <Link to="/" className="btn-primary">
           return home
         </Link>
       </Banner>
