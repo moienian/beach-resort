@@ -86,3 +86,11 @@
     }
   }
 }
+
+.empty-search {
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: var(--mainSpacing);
+  margin: 2rem 0;
+  padding: 1rem;
+}
