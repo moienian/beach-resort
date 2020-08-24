@@ -4,7 +4,7 @@ import { RoomContext } from "../context";
 import StyledHero from "../components/Hero/StyledHero";
 import Banner from "../components/Banner";
 import defaultBcg from "../images/defaultBcg.jpeg";
-// import "../App.scss";
+import "../App.scss";
 
 class SingleRoom extends Component {
   constructor(props) {
@@ -28,7 +28,6 @@ class SingleRoom extends Component {
         </div>
       );
     }
-    console.log(room);
     const {
       name,
       description,
