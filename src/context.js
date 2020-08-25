@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import data from "./data";
 import client from "./contentful";
 
 const RoomContext = React.createContext();
@@ -18,13 +17,14 @@ class RoomProvider extends Component {
     maxSize: 0,
     breakfast: false,
     pets: false,
+    loading: true,
   };
 
   getData = async () => {
     try {
       let response = await client.getEntries({
         content_type: "beachResortRoomExample",
-        order: "-fields.price",
+        order: "fields.price",
       });
       let rooms = this.formatData(response.items);
       let featuredRooms = rooms.filter((room) => room.featured === true);
@@ -37,6 +37,7 @@ class RoomProvider extends Component {
         price: maxPrice,
         maxPrice,
         maxSize,
+        loading: false,
       });
     } catch (error) {
       console.log(error);

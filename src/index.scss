@@ -21,6 +21,9 @@
 body {
   font-family: "Roboto", sans-serif;
   padding-top: 66px;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  line-height: 1.4;
 }
 
 .btn-primary {
@@ -39,6 +42,12 @@ body {
     background: transparent;
     color: var(--primaryColor);
   }
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
 }
 
 h3 {
