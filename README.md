@@ -1,6 +1,6 @@
 <p align="center">
 
-<img width="200" src="https://github.com/moienian/beach-resort/blob/master/src/images/logo.svg">
+<img width="200" src="https://mybeachresort.netlify.app/static/media/logo.9f0cccc1.svg">
 
 <h1 align="center">The Beach Resort</h1>
 
